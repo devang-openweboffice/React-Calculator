@@ -10,7 +10,6 @@ const Calculator = () => {
     const [expression, setExpression] = useState("");
     const [history, setHistory] = useState([]);
     const [showHistory, setShowHistory] = useState(false);
-
     const [currentValue, setCurrentValue] = useState("");
     const [register, setRegister] = useState([]);
     const [result, setResult] = useState("");
